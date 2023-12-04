@@ -58,7 +58,7 @@ EOF  help  quit
 (hbnb)
 
 ```
-Examples
+### Examples
 
 Create a new User:
 ```bash
