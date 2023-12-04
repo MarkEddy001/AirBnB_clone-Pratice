@@ -59,11 +59,12 @@ EOF  help  quit
 
 ```
 Examples
+
 Create a new User:
-Copy
+```bash
 (hbnb) create User
 Retrieve an object from a file:
-Copy
+```
 (hbnb) show User 1234-5678
 Update attributes of an object:
 Copy
