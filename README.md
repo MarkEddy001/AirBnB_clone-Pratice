@@ -77,6 +77,8 @@ Destroy an object:
 (hbnb) destroy User 1234-5678
 ```
 Authors
-`**Wanyoike Edwards**`
-`**Whitney Oduor**`
+
+`*Wanyoike Edwards`
+`Whitney Oduor`
+
 For a full list of contributors, check the AUTHORS file.
