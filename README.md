@@ -15,10 +15,25 @@ Welcome to the AirBnB clone project! This project is a group effort by Wanyoike 
 
 ## Background Context
 
-Before diving into the project, make sure to read the AirBnB concept page. 
-The project involves creating a parent class (BaseModel) for object initialization, serialization, and deserialization. 
-It includes the implementation of a simple flow for serialization/deserialization, creation of AirBnB-related classes, and development of a file storage engine. 
-The project also emphasizes the importance of unit testing, Python packages, and handling various concepts such as datetime, UUID, and command-line arguments.
+Before delving into the project, it's crucial to familiarize yourself with the AirBnB concept page. The primary objectives of this project are as follows:
+
+1. **Parent Class (BaseModel):** Create a parent class named `BaseModel` responsible for object initialization, serialization, and deserialization.
+
+2. **Serialization/Deserialization Flow:** Implement a simple flow for serialization/deserialization, connecting instances to dictionaries, JSON strings, and files.
+
+3. **AirBnB-related Classes:** Develop various classes related to AirBnB functionality (e.g., User, State, City, Place) that inherit from the `BaseModel`.
+
+4. **File Storage Engine:** Build the first abstracted storage engine for the project, focusing on file storage.
+
+5. **Unit Testing:** Emphasize the importance of unit testing for all classes and the storage engine to ensure the reliability and functionality of the code.
+
+6. **Python Packages:** Understand and implement Python packages to organize and structure the project effectively.
+
+7. **Datetime, UUID, and Command-line Arguments:** Handle essential concepts such as datetime for time-related operations, UUID for unique identifiers, and command-line arguments for interaction with the command interpreter.
+
+This project serves as a foundational step towards creating a comprehensive AirBnB clone. It not only establishes the core functionalities but also sets the groundwork for subsequent projects involving HTML/CSS templating, database storage, API integration, and front-end development.
+
+It is crucial to adhere to the outlined requirements, including proper documentation, adherence to coding standards, and thorough unit testing. By the end of this project, you'll gain a deep understanding of Python packages, command-line interpreters, unit testing, serialization/deserialization, and other essential concepts that form the backbone of a robust software development process.
 
 ## Concepts
 
