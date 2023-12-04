@@ -81,4 +81,4 @@ Destroy an object:
 `Wanyoike Edwards`
 `Whitney Oduor`
 
-For a full list of contributors, check the AUTHORS file.
+For a full list of contributors, check the [AUTHORS](#AUTHORS) file.
