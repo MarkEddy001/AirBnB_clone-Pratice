@@ -1,73 +1,75 @@
-# README.md
-"""
 # AirBnB Clone - The Console
 
-## Description
-This project is part of the AirBnB clone project. The goal is to implement a command interpreter for managing AirBnB objects.
+## Project Description
 
-## Command Interpreter
-### How to Start It
+Welcome to the AirBnB clone project! This project is a group effort by Wanyoike Edwards and Whitney Oduor, mentored by Guillaume. The goal is to build a command-line interpreter to manage AirBnB objects, laying the foundation for a complete web application.
+
+## Table of Contents
+
+- [Background Context](#background-context)
+- [Concepts](#concepts)
+- [Requirements](#requirements)
+- [How to Use](#how-to-use)
+- [Examples](#examples)
+- [Authors](#authors)
+
+## Background Context
+
+Before diving into the project, make sure to read the AirBnB concept page. The project involves creating a parent class (BaseModel) for object initialization, serialization, and deserialization. It includes the implementation of a simple flow for serialization/deserialization, creation of AirBnB-related classes, and development of a file storage engine. The project also emphasizes the importance of unit testing, Python packages, and handling various concepts such as datetime, UUID, and command-line arguments.
+
+## Concepts
+
+- Python packages
+- AirBnB clone
+- Command-line interpreter
+- Serialization and deserialization
+- Unit testing
+- File storage engine
+- Datetime, UUID, and command-line arguments
+
+## Requirements
+
+Make sure to check the [Requirements](#requirements) section for details on script execution, allowed editors, file organization, and unit tests.
+
+## How to Use
+
+### Interactive Mode
+
+```bash
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb)
 
 
-### How to Use It
-Command syntax here...
+Non-Interactive Mode
 
-### Examples
-Example usage here...
-"""
+$ echo "help" | ./console.py
+(hbnb)
 
-# AUTHORS
-"""
-Wanyoike Edwards <wanyoike@example.com>
-Whitney Oduor <whitney@example.com>
-"""
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
 
-# main.py (this is a skeleton for the console)
-#!/usr/bin/python3
-import cmd
-
-class HBNBCommand(cmd.Cmd):
-    """Command processor for AirBnB clone."""
-    
-    prompt = '(hbnb) '
-
-    def do_EOF(self, line):
-        """Exit the program"""
-        return True
-
-    def do_quit(self, line):
-        """Quit command to exit the program"""
-        return True
-
-    # More command methods go here
-
-if __name__ == '__main__':
-    HBNBCommand().cmdloop()
-
-# __init__.py inside tests directory to make it a package
-# tests/__init__.py
-"""
-
-# __init__.py inside test_models to make it a package
-# tests/test_models/__init__.py
-"""
-
-# test_base_model.py with a skeleton for future tests
-# tests/test_models/test_base_model.py
-#!/usr/bin/python3
-import unittest
-
-class TestBaseModel(unittest.TestCase):
-    """Unit tests for BaseModel"""
-    
-    def setUp(self):
-        pass
-
-    def test_something(self):
-        pass
-
-    # More tests will go here
-
-if __name__ == '__main__':
-    unittest.main()
-
+Examples
+Create a new User:
+Copy
+(hbnb) create User
+Retrieve an object from a file:
+Copy
+(hbnb) show User 1234-5678
+Update attributes of an object:
+Copy
+(hbnb) update User 1234-5678 name "John Doe"
+Destroy an object:
+Copy
+(hbnb) destroy User 1234-5678
+Authors
+Wanyoike Edwards
+Whitney Oduor
+For a full list of contributors, check the AUTHORS file.
