@@ -76,7 +76,7 @@ Destroy an object:
 ```bash
 (hbnb) destroy User 1234-5678
 ```
-Authors
+### Authors
 
 `*Wanyoike Edwards`
 `Whitney Oduor`
