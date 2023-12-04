@@ -63,16 +63,20 @@ Examples
 Create a new User:
 ```bash
 (hbnb) create User
-Retrieve an object from a file:
 ```
+Retrieve an object from a file:
+```bash
 (hbnb) show User 1234-5678
+```
 Update attributes of an object:
-Copy
+```bash
 (hbnb) update User 1234-5678 name "John Doe"
+```
 Destroy an object:
-Copy
+```bash
 (hbnb) destroy User 1234-5678
+```
 Authors
-Wanyoike Edwards
-Whitney Oduor
+`**Wanyoike Edwards**`
+`**Whitney Oduor**`
 For a full list of contributors, check the AUTHORS file.
