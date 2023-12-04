@@ -33,7 +33,7 @@ Make sure to check the [Requirements](#requirements) section for details on scri
 
 ## How to Use
 
-### Interactive Mode
+## Interactive Mode
 
 ```bash
 $ ./console.py
@@ -44,10 +44,11 @@ Documented commands (type help <topic>):
 EOF  help  quit
 
 (hbnb)
+```
 
+## Non-Interactive Mode
 
-Non-Interactive Mode
-
+```bash
 $ echo "help" | ./console.py
 (hbnb)
 
@@ -56,20 +57,28 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 
-Examples
+```
+## Examples
+
 Create a new User:
-Copy
+```bash
 (hbnb) create User
+```
 Retrieve an object from a file:
-Copy
+```bash
 (hbnb) show User 1234-5678
+```
 Update attributes of an object:
-Copy
+```bash
 (hbnb) update User 1234-5678 name "John Doe"
+```
 Destroy an object:
-Copy
+```bash
 (hbnb) destroy User 1234-5678
-Authors
-Wanyoike Edwards
-Whitney Oduor
-For a full list of contributors, check the AUTHORS file.
+```
+## Authors
+
+`Wanyoike Edwards`
+`Whitney Oduor`
+
+For a full list of contributors, check the [AUTHORS](#AUTHORS) file.
