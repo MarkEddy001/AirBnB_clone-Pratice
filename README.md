@@ -33,7 +33,7 @@ Make sure to check the [Requirements](#requirements) section for details on scri
 
 ## How to Use
 
-### Interactive Mode
+## Interactive Mode
 
 ```bash
 $ ./console.py
@@ -46,7 +46,7 @@ EOF  help  quit
 (hbnb)
 ```
 
-### Non-Interactive Mode
+## Non-Interactive Mode
 
 ```bash
 $ echo "help" | ./console.py
@@ -58,7 +58,7 @@ EOF  help  quit
 (hbnb)
 
 ```
-### Examples
+## Examples
 
 Create a new User:
 ```bash
@@ -76,9 +76,9 @@ Destroy an object:
 ```bash
 (hbnb) destroy User 1234-5678
 ```
-### Authors
+## Authors
 
-`*Wanyoike Edwards`
+`Wanyoike Edwards`
 `Whitney Oduor`
 
 For a full list of contributors, check the AUTHORS file.
