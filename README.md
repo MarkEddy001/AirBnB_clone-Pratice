@@ -44,10 +44,11 @@ Documented commands (type help <topic>):
 EOF  help  quit
 
 (hbnb)
+```
 
+### Non-Interactive Mode
 
-Non-Interactive Mode
-
+```bash
 $ echo "help" | ./console.py
 (hbnb)
 
@@ -56,6 +57,7 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 
+```
 Examples
 Create a new User:
 Copy
