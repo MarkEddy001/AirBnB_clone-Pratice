@@ -1,5 +1,7 @@
 # AirBnB Clone - The Console
 
+![Optional Text](hbnb.png)
+
 ## Project Description
 
 Welcome to the AirBnB clone project! This project is a group effort by Wanyoike Edwards and Whitney Oduor, mentored by Guillaume. The goal is to build a command-line interpreter to manage AirBnB objects, laying the foundation for a complete web application.
